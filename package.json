@@ -1,0 +1,32 @@
+{
+  "name": "wws01",
+  "version": "1.0.0",
+  "description": "Web Workshop Project 01",
+  "author": "Stefan Blattmann",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "vuetify": "^0.17.3",
+    "@nuxtjs/axios": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "prettier": "1.13.2",
+    "stylelint": "^9.2.1",
+    "stylelint-scss": "^3.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
